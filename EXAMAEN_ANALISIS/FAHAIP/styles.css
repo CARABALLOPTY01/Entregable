@@ -1,0 +1,142 @@
+/* estilos.css */
+
+/* Estilos para el header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #08f;
+}
+
+.fixed-header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed-header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.fixed-header .logo-container img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.fixed-header .logo-container h1 {
+    color: white;
+    margin: 0;
+}
+
+.fixed-header .search-container {
+    display: flex;
+    align-items: center;
+}
+
+.fixed-header .search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.fixed-header .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    color: white;
+}
+
+.search-button svg {
+    fill: white;
+}
+
+.navbar-dark.bg-secondary {
+    background-color: #6c757d;
+}
+
+.navbar-dark.bg-secondary a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navbar-dark.bg-secondary a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.loaded .main-content {
+    opacity: 1;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    margin-top: 80px; /* Ajuste para evitar solapamiento con el header fijo */
+}
+
+/* Sección de productos */
+.productos {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.productos .titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.productos-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.producto {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.btn-compra {
+    background-color: #08f;
+    color}
+    .form-section {
+        background-color: #f8f8f8;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .btn-primary {
+        background-color: #08f;
+        border: none;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0077cc;
+    }
+    
